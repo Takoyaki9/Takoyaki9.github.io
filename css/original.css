@@ -1,0 +1,33 @@
+div {
+    text-align:center;
+}
+
+.midashi1 {
+padding: 0.5em;/*文字周りの余白*/
+color: gray;/*文字色*/
+border-bottom: double 5px #FFC778;
+}
+
+.midashi2 {
+font-size: 1.5em;
+text-align:left;
+
+padding: 0.25em 0.5em;/*上下 左右の余白*/
+color: #494949;/*文字色*/
+background: transparent;/*背景透明に*/
+border-left: solid 5px orange;/*左線*/
+}
+
+.midashi3 {
+font-size: 1em;
+color: gray;/*文字色*/
+padding-left: 1.5em;/*文字左側の余白*/
+text-align:left;
+}
+
+.m-top {
+   margin-bottom: 5em; 
+}
+
+
+
