@@ -22,16 +22,14 @@
   
     <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
     <div class="navbar-header">
-        <a href="#" class="navbar-brand">たこやきTOP</a>
-  </div>
- 
-  <div id="gnavi" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="">Twitter</a></li>
+        <a href="#" class="navbar-brand">たこやき</a>
+        <ul class="nav navbar-nav list-inline nav-tabs" id="nav_tabs">
+      <li><a href="http://twitter.com/takoyaki_dev">Twitter</a></li>
       <li><a href="http://takoyaki-memo.hatenablog.com/">blog</a></li>
-      <li><a href="">mail</a></li>
+      <li><a href="mailto:takoyaki.dev@gmail.com">mail</a></li>
     </ul>
   </div>
+
 </nav>
 <br/>
 <br/>
@@ -106,7 +104,9 @@
     <br/>
     <h3 class="midashi2">掲示板みたいなWEBアプリ</h3><br/>
         <div class="div-center">
-            <img src="talkapp.png" height="80%" width="80%">
+            
+                <img class="shadow" src="talkapp.png" height="80%" width="80%">
+            
         </div>
         <br/>
         <p class="midashi3">
@@ -120,7 +120,7 @@
         <br/>
         <h3 class="midashi2">ランキング形式のコメント投稿WEBアプリ</h3>
         <div class="div-center">
-            <img src="rankingapp.png" height="80%" width="80%">
+            <img class="shadow" src="rankingapp.png" height="80%" width="80%">
         </div>
         <br/>
         <p class="midashi3">
@@ -131,12 +131,35 @@
             あと、地味にランキングの表示箇所で初めてjqueryをつかって、すごく便利だったのでもう少し勉強してみたい。<br/>
         </p>
         <br/>
+         <h3 class="midashi2">栄養素検索&管理WEBアプリ</h3>
+        <div class="div-center">
+            <div>
+                <img class="shadow" src="eiyou1.png" height="80%" width="80%">
+            </div>
+            <div>
+                <img class="shadow" src="eiyou2.png" height="80%" width="80%">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <p class="midashi3">
+            <a class="pad" href="https://dietwebapp.herokuapp.com/">https://dietwebapp.herokuapp.com/</a><br/>
+            <br/>
+            検索欄に食品名を入力して栄養素を表示、食品を登録すると、日別で、食べたものとその栄養素が確認できる<br/>
+            今回は前作までと比べてかなり勉強することが多かった。特にデータをAPIで引っ張ってくるのに苦労した。<br/>
+            データは文部科学省の日本食品標準成分表(excel)をORACLE APEXに突っ込んで、WEBアプリからAPIで取得。<br/>
+            あと、検索一覧から食品データを「ユーザ毎に」登録するために、セッションが役に立った。<br/>
+            ログイン機能の実装も初めてだったので、その面でも勉強になった。<br/>
+            今までに比べると少しWEBアプリらしさが出て来て嬉しい気持ち。<br/>
+        </p>
+        <br/>
+        <br/>
         <br/>
 </div>
 
 <footer class="footer navbar-inverse">
   <div class="container">
-    <p class="text-muted text-right">たこやきプロフィール</p>
+    <p class="text-muted text-right">たこやきポートフォリオ</p>
   </div>
 </footer>
 
